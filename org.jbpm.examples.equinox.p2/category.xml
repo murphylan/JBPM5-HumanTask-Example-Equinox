@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.jbpm.examples.equinox.features.client_0.0.1.qualifier.jar" id="org.jbpm.examples.equinox.features.client" version="0.0.1.qualifier">
+      <category name="c4biz_equinox_jbpm"/>
+   </feature>
+   <feature url="features/org.jbpm.examples.equinox.features.server_0.0.1.qualifier.jar" id="org.jbpm.examples.equinox.features.server" version="0.0.1.qualifier">
+      <category name="c4biz_equinox_jbpm"/>
+   </feature>
+   <category-def name="c4biz_equinox_jbpm" label="JBPM5 Human Task with Equinox">
+      <description>
+         Example of how to setup a JBPM5 Human Task with Equinox + ECF and Tycho.
+      </description>
+   </category-def>
+</site>
